@@ -25,7 +25,7 @@ class School
     sorted
   end
 =end
-
+  sorted = Hash[@roster.sort_by {|grade, student| student}]
 end
 
 @school = School.new("playschool")
