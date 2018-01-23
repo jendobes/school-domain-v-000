@@ -26,7 +26,7 @@ class School
   end
 end
 
-@school = School.new(playschool)
+@school = School.new("playschool")
 
 @school.add_student("Homer Simpson", 9)
 @school.add_student("Bart Simpson", 9)
